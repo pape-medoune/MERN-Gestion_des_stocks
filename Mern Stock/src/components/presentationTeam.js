@@ -240,6 +240,16 @@ function Team() {
                     <p className="text-base text-gray-400 font-normal">
                       Développeur full stack web et mobile
                     </p>
+
+                    <p className="text-base flex flex-row gap-x-3 justify-center mt-1 items-center text-gray-400 font-normal">
+                      <a href="https://github.com/cisse410">
+                        <FaGithub size={35} />
+                      </a>
+
+                      <a href="https://linkedin.com/in/issakha-cisse">
+                        <FaLinkedin  size={35} />
+                      </a>
+                    </p>
                   </div>
                 </div>
                 <div
@@ -266,7 +276,7 @@ function Team() {
                         <FaGithub size={35} />
                       </a>
 
-                      <a href="www.linkedin.com/in/mouhamedoune-fall-99b79322b">
+                      <a href="https://linkedin.com/in/mouhamedoune-fall-99b79322b">
                         <FaLinkedin  size={35} />
                       </a>
                     </p>

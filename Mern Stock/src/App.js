@@ -14,11 +14,11 @@ function App() {
         <div className="">
           <Routes>
             <Route path="*" element={<SamaStock />} />
-            <Route path="/" element={<PrivateRoutes />}>
               <Route path="/" element={<Team />} />
+            <Route path="/" element={<PrivateRoutes />}>
             </Route>
-            <Route path="/orders" element={<PrivateRoutes />}>
               <Route path="/orders" element={<Orders />} />
+            <Route path="/orders" element={<PrivateRoutes />}>
             </Route>
             <Route exact path="/" element={<SamaStock />} />
           </Routes>

@@ -13,24 +13,15 @@ import Footer from "./assets/Footer";
 
 function SamaStock() {
   return (
-    // <div>
-    // 	<Navbar />
-    // 	<Home />
-    // 	<Products />
-    // 	<Learn />
-    // 	{/* <Login /> */}
-    // </div>
     <>
       <Navbar />
-      
-      {/* <Products /> */}
+
       <Routes>
-        <Route path="/home" element={<Home/>}></Route>
+        <Route path="/home" element={<Home />}></Route>
         <Route path="/products" element={<Products />}></Route>
         <Route path="/about" element={<About />} />
-        <Route path="/login" element={<Login />} />
-        <Route path="/sigin" element={<Sigin />} />
         <Route path="/dashboard" element={<Dashboard />} />
+        <Route path="/login" element={<Login />} />
       </Routes>
       <Footer />
     </>

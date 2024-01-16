@@ -1,6 +1,3 @@
-// Un fichier JSON qui represente un article(titre, contenu, auteur) et ses commentaires(username, contenum )
-// avec le prenom, nom et l'age de l'auteur
-    // article
 {
         "titre": "First post",
         "contenu": "Cet article decrit en quelque sorte la situation politique du Senegal",
@@ -9,7 +6,6 @@
             "nom": "SALL",
             "age": 21
         },
-    // commentaire
         "commentaires": [
             {
                 "username": "#19A",

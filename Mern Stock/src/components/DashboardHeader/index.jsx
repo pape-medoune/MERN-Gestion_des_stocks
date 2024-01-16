@@ -58,7 +58,7 @@ function DashboardHeader({ btnText, onClick }) {
       .then((response) => {
         console.log("Data inserted successfully" + response.data);
         setElement(response.data);
-        toast.success('This is Toast Notification for Success');
+        toast.success('Le produit est ajouté avec succés');
       })
       .catch((err) => {
         console.error("Erreur lors de l'insertion" + err);

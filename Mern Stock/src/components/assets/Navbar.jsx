@@ -16,14 +16,13 @@ export default () => {
 
   return (
     <nav className="bg-white border-b w-full md:static md:text-sm md:border-none shadow">
-      <div className="items-center px-4 max-w-screen-xl mx-auto md:flex md:px-8">
-        <div className="flex items-center justify-between py-3 md:py-5 md:block">
+      <div className="items-center px-6 max-w-screen-x mx-auto md:flex md:px-6">
+        <div className="flex items-center justify-between py-2 md:py-1 md:block">
           <Link to="/">
             <img
-              className="rounded-full m-0"
+              className="rounded-full"
               src={Logo}
-              width={90}
-              height={50}
+              width={60}
               alt="Logo"
             />
           </Link>
@@ -65,7 +64,7 @@ export default () => {
           </div>
         </div>
         <div
-          className={`flex-1 pb-3 mt-8 md:block md:pb-0 md:mt-0 ${
+          className={`flex-1 pb-3 mt-5 md:block md:pb-0 md:mt-0 ${
             state ? "block" : "hidden"
           }`}
         >
@@ -82,25 +81,7 @@ export default () => {
                 </Link>
               );
             })}
-            <span className="hidden w-px h-6 bg-gray-300 md:block"></span>
-            <div className="space-y-3 items-center gap-x-6 md:flex md:space-y-0">
-              <li>
-                <Link
-                  to="login"
-                  className="block py-3 px-4 text-center font-bold uppercase  text-gray-700 hover:text-indigo-600 rounded-lg md:inline"
-                >
-                  Log in
-                </Link>
-              </li>
-              <li>
-                <Link
-                  to="sigin"
-                  className="block py-3 px-4 font-medium uppercase text-center text-white bg-indigo-600 hover:bg-indigo-500 active:bg-indigo-700 active:shadow-none rounded-lg shadow md:inline"
-                >
-                  Sign in
-                </Link>
-              </li>
-            </div>
+            {/* <span className="hidden w-px h-6 bg-gray-300 md:block"></span> */}
           </ul>
         </div>
       </div>

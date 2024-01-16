@@ -12,11 +12,11 @@ function Home() {
           <span className="md:text-5xl text-blue-600">SamaStock</span>,
         </p>
         <h1 className="md:text-3xl sm:text-6xl text-4xl font-bold md:py-6">
-          votre boutique en ligne.
+          votre gestionnaire de stock en ligne avec une efficacité votre <span className="text-blue-500 font-bold">stock</span>.
         </h1>
         <div className="flex justify-center items-center">
           <p className="md:text-3xl sm:text-4xl text-xl font-bold text-gray-600 py-4">
-            Nos produits disponibles en stock :
+            Les produits disponibles en stock :
             <TypeAnimation
               sequence={[
                 " Téléphones",
@@ -38,8 +38,8 @@ function Home() {
             aussi facile
           </q>
         </p>
-        <button className="bg-indigo-600 active:bg-blue-600 active:shadow-none text-white w-[200px] rounded-lg font-medium my-6 mx-auto py-4 hover:bg-indigo-500 shadow">
-          <Link to="/dashboard">Accéder</Link>
+        <button className="bg-indigo-600 active:bg-blue-600 active:shadow-none text-white w-[120px] rounded-lg font-medium my-6 mx-auto py-4 hover:bg-indigo-500 shadow">
+          <Link to="/">Accéder</Link>
           {/* En cliquant sur ce boutton, l'utilisateur pourra acceder directement au tableau de bord */}
         </button>
       </div>

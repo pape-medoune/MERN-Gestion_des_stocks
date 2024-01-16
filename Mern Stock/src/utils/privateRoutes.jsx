@@ -4,7 +4,7 @@ import React from 'react'
 function PrivateRoutes() {
     let auth = localStorage.getItem("access-token")
   return (
-    auth? <Outlet/> : <Navigate to='/login'/>
+    auth? <Outlet/> : <Navigate to='/home'/>
   )
 }
 
